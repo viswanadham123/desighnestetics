@@ -12,7 +12,7 @@ const MainPage = () => {
     setBox(!openBox)
     setSelectedCar(item);
   };
-  const [selectedCar, setSelectedCar] = useState("all cars");
+  const [selectedCar, setSelectedCar] = useState("Contact Us");
 
   const handleActionSelection=()=>{
     
@@ -77,7 +77,7 @@ const MainPage = () => {
   };
   
   
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState("ALL");
 
   return (
     <div>
@@ -193,37 +193,6 @@ const MainPage = () => {
         </div>
       </div>
 
-
-      {selectedCar==="all cars"&&(
-         <div className="back1">
-         <h1>Car Categories</h1>
-         <div className="all-cars-div">
-         {Object.keys(carCategories).map((category) => (
-           <p  className={selectedCategory === category ? "selected-category" : ""} key={category} onClick={() => setSelectedCategory(category)}>
-             {category}
-           </p>
-         ))}
-         </div>
-      
-         {selectedCategory && (
-           <div className="cars-categorywise">
-        
-             {carCategories[selectedCategory].map((car) => (
-               <div className="sub1" key={car.heading}>
-                <img className="image-car" src="https://tridentgroup.s3.ap-south-1.amazonaws.com/hyundai/models/display_images/1698924096.jpg"/>
-                 <h3>{car.heading}</h3>
-                 <p>{`Price Range: ${car.priceRange}`}</p>
-
-                 <button className="book-ride">
-                   Book Ride
-                 </button>
-               </div>
-             ))}
-           </div>
-         )}
-       </div>
-      )}
-
       {selectedCar==="Contact Us" && (
            <div className="top-div3">
            <p className="div3-home"><span className="span1">Home</span> / ContactUs</p>
@@ -325,16 +294,17 @@ const MainPage = () => {
            
                </div>
            <div className="maps-div">
-           
+          
            <iframe
-           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124430.18465116947!2d77.52733163906251!3d12.943463001689041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1701069592483!5m2!1sen!2sin"
-           width="600"
-           height="450"
-           style={{ border: 0 }}
-           allowFullScreen=""
-           loading="lazy"
-           referrerPolicy="no-referrer-when-downgrade"
-           ></iframe>
+    title="Google Map"
+    srcDoc="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31103.159728471357!2d77.58904125000001!3d12.9785693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1701084738589!5m2!1sen!2sin"
+    width="600"
+    height="450"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
            </div>
    
            </div>:
@@ -373,6 +343,37 @@ const MainPage = () => {
    
    
          </div>)}
+      {selectedCar==="all cars"&&(
+         <div className="back1">
+         <h1>Car Categories</h1>
+         <div className="all-cars-div">
+         {Object.keys(carCategories).map((category) => (
+           <p  className={selectedCategory === category ? "selected-category" : ""} key={category} onClick={() => setSelectedCategory(category)}>
+             {category}
+           </p>
+         ))}
+         </div>
+      
+         {selectedCategory && (
+           <div className="cars-categorywise">
+        
+             {carCategories[selectedCategory].map((car) => (
+               <div className="sub1" key={car.heading}>
+                <img className="image-car" src="https://tridentgroup.s3.ap-south-1.amazonaws.com/hyundai/models/display_images/1698924096.jpg"/>
+                 <h3>{car.heading}</h3>
+                 <p>{`Price Range: ${car.priceRange}`}</p>
+
+                 <button className="book-ride">
+                   Book Ride
+                 </button>
+               </div>
+             ))}
+           </div>
+         )}
+       </div>
+      )}
+
+     
 
          {selectedCar==="Our Services"&& (
            <div className="top-div6">
