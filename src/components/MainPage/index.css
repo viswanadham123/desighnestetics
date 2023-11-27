@@ -1,352 +1,329 @@
-.top-div{
-    background-color: black;
-    height: 10%;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 24px;
+.top-div {
+  background-color: black;
+  height: 10%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
 }
-.top1{
-    display: flex;
-    flex-direction: row;
-    margin-left: 60px;
-    align-items: center;
+.top1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  align-items: center;
 }
-.top2{
-    padding-left: 10px;
-    padding-right: 60px;
-}
-
-.top-div2{
-    background-color:#ffffff;
-    height: 30vh;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 24px;
-}
-.logo1{
-    height: 15vh;
-    width: 15vw;
-    margin-left: 10vw;
-    margin-top: 5vh;
-}
-.div2-sidesection{
-    display: flex;
-    flex-direction: row;
-    width: 40vw;
-    justify-content: space-between; 
-    align-items: start;
-    margin-right: 50px;
-    color: #375f89;
-   
-   
-}
-.top-div3{
-    background-color:grey;
-    height: 140vh;
-    color: #002c5f;
-    display: flex;
-    flex-direction: column;
-   padding-left: 10vw;
-    font-size: 24px;
-    
+.top2 {
+  padding-left: 10px;
+  padding-right: 60px;
 }
 
-.top-div6{
-    background-color:grey;
-    height: 80vh;
-    color: #002c5f;
-    display: flex;
-    flex-direction: column;
-   padding-left: 10vw;
-    font-size: 24px;
-    
+.top-div2 {
+  background-color: #ffffff;
+  height: 30vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.logo1 {
+  height: 15vh;
+  width: 15vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+.div2-sidesection {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  justify-content: space-between;
+  align-items: start;
+  margin-right: 50px;
+  color: #375f89;
+}
+.top-div3 {
+  background-color: grey;
+  height: 140vh;
+  color: #002c5f;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  font-size: 24px;
+}
+
+.top-div6 {
+  background-color: grey;
+  height: 80vh;
+  color: #002c5f;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  font-size: 24px;
 }
 /* .div3-home{
     padding-left: 10vw;
 } */
 
-.span1{
-    color:#ffffff;
+.span1 {
+  color: #ffffff;
 }
 
-
-.location2{
-    width: 50%;
+.location2 {
+  width: 50%;
 }
 .locations-direction {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40vw;
-  }
-  .selected-category {
-    color: blue;
-    font-size: 18px;
-    font-weight: 600;
-  }
-  
-  .locations-direction p {
-    cursor: pointer;
-  }
-  
-  .locations-direction p.selected {
-    background-color:#0a2d5c; /* Change this to your desired background color */
-    color: #ffffff; /* Change this to your desired text color */
-    width:200px;
-    height: 40px;
-    text-align: center;
-    border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+.selected-category {
+  color: blue;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.locations-direction p {
+  cursor: pointer;
+}
+
+.locations-direction p.selected {
+  background-color: #0a2d5c; /* Change this to your desired background color */
+  color: #ffffff; /* Change this to your desired text color */
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 8px;
 }
 .contact-container {
-    
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .get-directions-button {
-    margin-top: 10px;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .get-directions-button:hover {
-    background-color: #0056b3;
-  }
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  .directions-div{
-    height:90vh;
-    width: 30vw;
-    overflow: auto;
-  }
-  .directions-div2{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    width: 80vw;
-    height: 100vh;
-    
-    
-  }
-  .maps-div{
-    margin-right: 50px;
-height: 90vh;
-    background-color: #007bff;
+.get-directions-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
+.get-directions-button:hover {
+  background-color: #0056b3;
+}
 
-    
-  }
-  /* ContactForm.css */
+.directions-div {
+  height: 90vh;
+  width: 30vw;
+  overflow: auto;
+}
+.directions-div2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  height: 100vh;
+}
+.maps-div {
+  margin-right: 50px;
+  height: 90vh;
+  background-color: #007bff;
+}
+/* ContactForm.css */
 /* ContactForm.css */
 .container {
-    display: flex;
-    width: 100% !important;
-    background-color: #002c5f;
-    margin-left: 0px !important;
-  }
-  .container2 {
-    display: flex;
-    width: 100% !important;
-    margin-left: 0px !important;
-  }
-  
-  .form-container {
-    width: 50%;
-  
-    padding: 20px;
-    border-radius: 10px;
-    color: #fff;
-    box-sizing: border-box;
-    margin-top: 80px;
-    border-radius: 12px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 8px;
-  }
-  
-  input,
-  select,
-  textarea {
-    padding: 8px;
-    margin-bottom: 16px;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #003366;
-  }
-  
-  .image-container {
-    width: 50%;
-  }
-  
-  .image-container img {
-    width: 80%;
-    height: 60vh;
-    margin-left: 10vh;
-    border-radius: 10px;
-    margin-top: 80px;
-  }
-  
-  /* Add this CSS to your styles.css or create a new CSS file */
+  display: flex;
+  width: 100% !important;
+  background-color: #002c5f;
+  margin-left: 0px !important;
+}
+.container2 {
+  display: flex;
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+
+.form-container {
+  width: 50%;
+
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 80px;
+  border-radius: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  width: 80%;
+  height: 60vh;
+  margin-left: 10vh;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+/* Add this CSS to your styles.css or create a new CSS file */
 
 .row {
-    display: flex;
-  }
-  
-  .full-width {
-    width: 100%;
-  }
-  
-  .column {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-   
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 8px;
-  }
-  /* Add this to your existing CSS file */
+  display: flex;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+/* Add this to your existing CSS file */
 
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-  }
-  
-  .social-media {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .social-media a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  }
-  
-  .social-media a:hover {
-    text-decoration: underline;
-  }
-  
-.service-svg{
-    margin-left: 40px;
-    margin-right: 0px;
+.social-media {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+.service-svg {
+  margin-left: 40px;
+  margin-right: 0px;
 }
 /* Add these styles to your existing CSS file or create a new one */
 
 /* Style for the car dropdown */
 
-  
-  .car-dropdown p {
-    background-color:#ffffff;
-    padding: 10px;
-    margin: 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    border-bottom: 1px solid #ddd; /* Add a border bottom to separate items */
-  }
-  
-  .car-dropdown p:last-child {
-    border-bottom: none; /* Remove the border bottom for the last item */
-  }
-  
-  .car-dropdown p:hover {
-    background-color: #f8f9fa; /* Change the background color on hover */
-  }
-  
-  /* Show the dropdown when the parent is hovered */
-  p:hover .car-dropdown {
-    display: block;
-  }
-  
-  /* Add these styles at the end of your existing CSS file or create a new one */
-  .dropdown1 {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-  
-  }
-
-
-  .all-cars-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: #002c5f;
-    font-size: 18px;
-   
-  }
-
-  .cars-categorywise{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        
-  }
-  .back1{
-    background-color: grey;
-    min-height: 50vh;
-    max-height: fit-content;
-    border-radius: 12px;
-  }
-  .image-car{
-width: 100%;
-height: 120px;
-
-  }
-.sub1{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.car-dropdown p {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border-bottom: 1px solid #ddd; /* Add a border bottom to separate items */
 }
-.book-ride{
-    margin-bottom: 10px;
+
+.car-dropdown p:last-child {
+  border-bottom: none; /* Remove the border bottom for the last item */
 }
-.browse-button{
-    background-color: #002c5f;
-    margin-top: 20px;
-    height: 50px;
-    font-size: 18px;
-    border-radius: 10px;
+
+.car-dropdown p:hover {
+  background-color: #f8f9fa; /* Change the background color on hover */
+}
+
+/* Show the dropdown when the parent is hovered */
+p:hover .car-dropdown {
+  display: block;
+}
+
+/* Add these styles at the end of your existing CSS file or create a new one */
+.dropdown1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all-cars-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #002c5f;
+  font-size: 18px;
+}
+
+.cars-categorywise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.back1 {
+  background-color: grey;
+  min-height: 60vh;
+}
+.image-car {
+  width: 100%;
+  height: 120px;
+}
+.sub1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-ride {
+  margin-bottom: 10px;
+}
+.browse-button {
+  background-color: #002c5f;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
 }
